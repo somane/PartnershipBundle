@@ -1,0 +1,27 @@
+{
+    "name" : "maliteam/partnership-bundle",
+    "type" : "symfony-bundle",
+    "description" : "Symfony partnershipBundle",
+    "keywords" : ["Partner application" , "xml", "json", "api", "web service"],
+    "licence" : "GPL-3.0+",
+    "authors" : [
+
+        {
+            "name" : "KOÏTA Sékou",
+            "email" : "sictoz@gmail.com"
+        }
+    ],
+            
+    "require" : {
+            "php" : ">=5.3.2",
+            "symfony/framework-bundle" :        ">=2.1, <2.3-dev",
+            "twig/twig" :                       "*",
+            "doctrine" :                        "*"
+    },
+    
+    "autoload": {
+        "psr-0": { "MALITEAM\\Bundle\\PartnershipBundle": "" }
+    },
+    "target-dir": "MALITEAM/Bundle/PartnershipBundle",
+    "minimum-stability": "dev"
+}
