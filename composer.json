@@ -8,12 +8,12 @@
 
         {
             "name" : "KOÏTA Sékou",
-            "email" : "sictoz@gmail.com"
+            "email" : "sictoz@gmail.com",
             "homepage" : "http://www.maliteam-consulting.fr"
         },
         {
             "name" : "AGBEMENOU Jean-Pascal",
-            "email" : "jean.pascal.ml@gmail.com"
+            "email" : "jean.pascal.ml@gmail.com",
             "homepage" : "http://www.maliteam-consulting.fr"
         }
         
@@ -21,7 +21,7 @@
             
     "require" : {
             "php" : ">=5.3.2",
-            "symfony/framework-bundle" :        ">=2.1,
+            "symfony/framework-bundle" :        ">=2.1",
             "twig/twig" :                       "*",
             "doctrine" :                        "*"
     },
