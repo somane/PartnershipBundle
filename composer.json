@@ -2,19 +2,26 @@
     "name" : "maliteam/partnership-bundle",
     "type" : "symfony-bundle",
     "description" : "Symfony partnershipBundle",
-    "keywords" : ["Partner application" , "xml", "json", "api", "web service"],
+    "keywords" : ["Partner application" , "email", "xml", "json", "api", "facebook", "twitter", "webservice"],
     "licence" : "GPL-3.0+",
     "authors" : [
 
         {
             "name" : "KOÏTA Sékou",
             "email" : "sictoz@gmail.com"
+            "homepage" : "http://www.maliteam-consulting.fr"
+        },
+        {
+            "name" : "AGBEMENOU Jean-Pascal",
+            "email" : "jean.pascal.ml@gmail.com"
+            "homepage" : "http://www.maliteam-consulting.fr"
         }
+        
     ],
             
     "require" : {
             "php" : ">=5.3.2",
-            "symfony/framework-bundle" :        ">=2.1, <2.3-dev",
+            "symfony/framework-bundle" :        ">=2.1,
             "twig/twig" :                       "*",
             "doctrine" :                        "*"
     },
