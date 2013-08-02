@@ -33,7 +33,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...        
-        new MALITEAM\Bundle\PartnershipBundle\MALITEAMPartnershipBundle(),
+        new Maliteam\Bundle\PartnershipBundle\MALITEAMPartnershipBundle(),
     );
 }
 ```

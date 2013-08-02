@@ -21,14 +21,14 @@
             
     "require" : {
             "php" : ">=5.3.2",
-            "symfony/framework-bundle" :        ">=2.1",
+            "symfony/framework-bundle" :        ">=2.3",
             "twig/twig" :                       "*",
             "doctrine" :                        "*"
     },
     
     "autoload": {
-        "psr-0": { "MALITEAM\\Bundle\\PartnershipBundle": "" }
+        "psr-0": { "Maliteam\\Bundle\\PartnershipBundle": "" }
     },
-    "target-dir": "MALITEAM/Bundle/PartnershipBundle",
+    "target-dir": "Maliteam/Bundle/PartnershipBundle",
     "minimum-stability": "dev"
 }
